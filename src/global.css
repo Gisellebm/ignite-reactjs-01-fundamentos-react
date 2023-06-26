@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  }
 
 :root {
   --white: #fff;
@@ -15,12 +15,20 @@
   --gray-900: #121214;
 
   --green-500: #00875f;
+
+  font-size: 62.5%;
 }
 
 
 
 body {
- background-color: #121214;
- color: #fff;
+ background: var(--gray-900);
+ color: var(--white);
+ -webkit-font-smoothing: antialiased;
 }
 
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
