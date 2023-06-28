@@ -47,15 +47,6 @@
     line-height: 1.6;
 }
 
-.avatar {
-    width: calc(4.8rem + 1.2rem);
-    height: calc(4.8rem + 1.2rem);
-    border-radius: .5rem;
-    border: .4rem solid var(--gray-800);
-    outline: .2rem solid var(--purple-500);
-
-}
-
 .authorInfo strong {
     display: block;
     color: var(--gray-100);
