@@ -6,6 +6,7 @@ import styles from './App.module.css';
 
 const posts = [
   {
+    id: 1,
     author: {
       avatarUrl: 'https://github.com/Gisellebm.png',
       name: 'Giselle Brasil',
@@ -20,6 +21,7 @@ const posts = [
   },
 
   {
+    id: 2,
     author: {
       avatarUrl: 'https://github.com/diego3g.png',
       name: 'Diego Fernandes',
